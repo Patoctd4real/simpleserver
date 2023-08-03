@@ -2,7 +2,7 @@
 FROM node:14
 
 # Set the working directory inside the container
-WORKDIR /Users/HP/Desktop/simpleserver
+WORKDIR /simpleserver
 
 # Copy package.json and package-lock.json to install dependencies
 COPY package*.json ./
